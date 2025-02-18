@@ -1,0 +1,28 @@
+.chatapp {
+    display: flex; 
+    height: 97vh; 
+}
+
+
+.sidebar {
+    width: 30vw; 
+    background-color: #202c33;
+    border-right: 1px solid #2f3a40;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+}
+
+.chatArea {
+    display: flex;
+    flex-direction: column;
+    background-color: #0b141a;
+    height: 97vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 97vh;
+    background-color: #0b141a;
+}

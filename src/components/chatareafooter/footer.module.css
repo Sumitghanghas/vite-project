@@ -1,0 +1,52 @@
+.footer {
+    background: #1e3442;
+    bottom: 0;
+    position: fixed;
+    width: 64.9vw;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11.5px;
+}
+
+.inputbox {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+.voiceicon {
+    font-size: 30px;
+    color: rgb(129, 124, 124);
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+
+.plusicon {
+    font-size: 25px;
+    color: rgb(129, 124, 124);
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.inputcontainer {
+    display: flex;
+    align-items: center;
+    background-color: #364b58;
+    padding: 6px 10px;
+    margin: 9px auto;
+    width: 90%;
+    max-width: 820px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.stickericon {
+    font-size: 20px;
+    color: #8098a6;
+    margin-right: 10px;
+}

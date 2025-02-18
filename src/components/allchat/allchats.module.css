@@ -1,0 +1,64 @@
+.chatContainer {
+    padding: 15px;
+    background: #111b21;
+    color: white;
+    max-height: 85vh;
+    overflow-y: auto;
+    
+}
+
+.chatContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chatContainer::-webkit-scrollbar-thumb {
+    background-color: #3b4a54;
+    border-radius: 10px;
+}
+
+.chatItem {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #2a3942;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.chatItem:hover {
+    background: #202c33;
+}
+
+.profilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.chatName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lastMessage {
+    margin: 0;
+    font-size: 14px;
+    color: #8696a0;
+}
+
+@media (max-width: 600px) {
+    .chatName {
+        font-size: 14px;
+    }
+
+    .lastMessage {
+        font-size: 12px;
+    }
+
+    .profilePic {
+        width: 40px;
+        height: 40px;
+    }
+}

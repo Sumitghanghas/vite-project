@@ -1,0 +1,41 @@
+.container {
+    width: 64.9vw;
+    height: 10vh;
+    background: #22333c;
+
+    color: white;
+    display: flex;
+    position: fixed;
+}
+
+.profile {
+    margin: 17px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.username {
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.lasticon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.chatserch {
+    padding-right: 22px;
+}
+
+.videoicon {
+    padding-right: 22px;
+}

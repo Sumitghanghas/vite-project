@@ -1,0 +1,135 @@
+.statusContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #111b21;
+  height: 100vh;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.statusHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  height: 1.5vh;
+
+}
+
+.statusIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.plusIcon, .dotsIcon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #bbb;
+  transition: color 0.3s ease-in-out;
+}
+
+.plusIcon:hover, .dotsIcon:hover {
+  color: #25d366;
+}
+
+.myStatusContainer {
+  border-bottom: 10px solid #060e13;
+  padding-bottom: 10px;
+}
+
+.myStatus {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.myStatus:hover {
+  background: #1d2a35;
+}
+
+.profilePic {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #25d366; 
+}
+
+.text h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+
+.text p {
+  color: #aaa;
+  font-size: 14px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 16px;
+  color: #bbb;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+.statusItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.statusItem:hover {
+  background: #213440;
+}
+
+.statusItem .profilePic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #34b7f1; 
+}
+
+.statusText h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.statusText p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+  padding-bottom: 5px;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #345265;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #294251;
+}
+.statusDetails{
+  border-bottom: 0.5px solid #c4bfbf;
+  width: 28vw;
+}
