@@ -1,0 +1,94 @@
+.maincontainer{
+    background-color: #111b21;  
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 97vh;
+}
+.header{
+    font-size: 27px;
+    font-weight: bolder;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #2a3942;
+    border-radius: 10px; 
+    padding: 8px 10px;
+    margin: 40px 0 30px 15px;
+    width: 90%;
+   
+}
+
+.searchIcon {
+    font-size: 15px;
+    color: #8696a0;
+    margin-right: 10px;
+}
+
+
+.searchInput {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.searchInput::placeholder {
+    color: #8696a0;
+    font-size:17px;
+}
+.profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .namecontainer{
+  display: flex;
+    font-weight: 400;
+    color: white;
+    margin-left: 10px;
+  }
+  .name{
+margin: 35px 0 0 25px;
+    font-size: 22px;
+  }
+  .allsetting{
+    display: flex;
+    gap: 15px;
+    margin-top: 27px;
+    flex-direction: column;
+
+  }
+  .settinga ,.settingas{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2.5px;
+    display: flex;
+    height: 50px;
+   
+  }
+  .bord{
+    border-bottom: 0.5px solid rgb(96, 116, 117);
+    width: 500px;
+    margin-left: 20px;
+    font-size: 17px;
+  }
+  .settinga:hover{
+    background-color: #2a3942;
+    color: white;
+  }
+  .settingas{
+    color: rgb(227, 80, 80);
+  }
+  .settingas:hover{
+    background-color: #2a3942;
+    border-radius: 30px;
+  }
+  .namecontainer:hover{
+    background-color: #2a3942;
+    color: white;
+    border-radius: 20px;
+  }

@@ -2,7 +2,6 @@ import { MdChat, MdGroups, MdSettings } from "react-icons/md";
 import { LuCircleDot } from "react-icons/lu"; 
 import { RiChatVoiceLine } from "react-icons/ri";
 import { ImSpinner2 } from "react-icons/im";
-import { CgProfile } from "react-icons/cg";
 import styles from "./sidebar.module.css";
 
 export default function Sidebar({ setActivePage }) {
@@ -36,7 +35,8 @@ export default function Sidebar({ setActivePage }) {
           <span className={styles.tooltip}>Settings</span>
         </li>
         <li className={styles.iconContainer} onClick={() => setActivePage("profile")}>
-          <CgProfile className={styles.icon} />
+        <img src="./sumitghanghas.jpg" alt="My Status"  className={styles.profilePic}/>
+          
           <span className={styles.tooltip}>Profile</span>
         </li>
       </ul>

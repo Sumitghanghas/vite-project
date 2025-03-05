@@ -27,7 +27,8 @@ export default function ChatApp() {
                     {activePage === "status" && <Status />}
                     {activePage === "channels" && <Channels />}
                     {activePage === "communities" && <Communities />}
-                    {activePage === "metaai" && <MetaAI />}
+                    {activePage === "metaai" && <Header/>}
+                    {activePage === "metaai" && <AllChats onSelectChat={setSelectedChat} />}
                     {activePage === "settings" && <Settings />}
                     {activePage === "profile" && <Profile />}
                 </div>

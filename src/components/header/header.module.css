@@ -78,3 +78,70 @@
 .filterbutton {
     margin: 10px;
 }
+.menu{
+    position: absolute;
+    top: 75px;
+    left: 370px;
+    background: #253f4f;
+    padding: 10px;
+    border-radius: 7px;
+   height: 120px;
+}
+.menuitem{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.menuli{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+.mcommunit{
+    color: #ebeeef;
+    font-size: 25px;
+   padding: 10px 10px 10px 10px;
+   background-color: rgb(12, 209, 143);
+   border-radius: 50px;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.menu li:hover{
+    background-color: #062435;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.threemenu{
+    position: absolute;
+    top: 80px;
+    left: 320px;
+    background: #233946;
+    padding-right: 10px;
+   height: 225px;
+   width: 235px;
+}
+
+.threemenuli{
+    list-style: none;
+    margin-top: 5px;
+    padding: 7px
+}
+.threemenuli li:hover{
+    background-color: #062435;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.threemenuli li{
+    height:40px;
+}
+.getw{
+    padding-top: 7px;
+    border-top: 0.5px solid white;
+}

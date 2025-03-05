@@ -1,5 +1,69 @@
-.chatbody{
-    height: 90vh;
-    width: 65vw;
-    background: #091f2e;
+.chatArea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #111b21;
+    padding: 15px;
+}
+
+.messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 62vw;
+    margin-top: 60px;
+}
+
+.myMessage {
+    align-self: flex-end;
+    background-color: #0078fe;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 60%;
+}
+
+.otherMessage {
+    align-self: flex-start;
+    background-color: #2a3942;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 60%;
+}
+
+.inputArea {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1e2b32;
+    border-top: 1px solid #2a3942;
+}
+
+.inputArea input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: #2a3942;
+    color: white;
+}
+
+.inputArea button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0078fe;
+    color: white;
+    cursor: pointer;
+}
+
+.inputArea button:hover {
+    background-color: #0056b3;
 }

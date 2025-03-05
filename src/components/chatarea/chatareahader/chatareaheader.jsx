@@ -7,9 +7,9 @@
     export default function Chatareaheader({ selectedChat }) {
         return (
             <div className={Styles.container}>
-                <img src={selectedChat?.profilePic} alt="Profile" className={Styles.profile} />
+                <img src= {`http://localhost:3002${selectedChat?.profilepic}`} alt="Profile" className={Styles.profile} />
                 <div className={Styles.username}>
-                    <h3>{selectedChat?.name}</h3>
+                    <h3>{selectedChat?.username}</h3>
                 </div>
                 <div className={Styles.lasticon}>
                     <FaVideo className={Styles.videoicon} />

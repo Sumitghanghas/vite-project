@@ -1,0 +1,110 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    background-color: #111b21;
+    margin-left: 8px;
+    height: 5vh;
+}
+
+.plusIcon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #bbb;
+    transition: color 0.3s ease-in-out;
+    margin-left: auto; 
+    padding-right: 15px;
+}
+
+.headertext {
+    display: flex;
+    color: #f7fafc;
+    align-items: center;
+    justify-content: center;
+    background-color: #111b21;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.para {
+    color: #a2afb8;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 19px;
+}
+
+.channelbody {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    height: 73vh;
+    background-color: #111b21;
+}
+
+.channelContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.channelItem {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 15px;
+    border-bottom: 1px solid #546c7b; 
+}
+
+.channelText {
+    display: flex;
+    flex-direction: column; 
+    font-size: 22px;
+}
+
+.channelText p {
+    font-size: 14px;
+    margin: 2px 0 0 0; 
+    color: #a2afb8;
+}
+
+.followbtn {
+    background-color: transparent;
+    color: rgb(45, 217, 134);
+    padding: 10px 20px;
+    border: 0.5px solid rgb(191, 192, 204);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 14px;
+    margin-left: auto; 
+}
+
+.followbtn:hover {
+    background-color: #445a6f;
+}
+.channelItem:hover{
+    cursor: pointer; 
+    background-color: #1e2730;
+}
+.profilePic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3b4a54;
+    margin-right: 10px;
+}
+.disbutton{
+    background-color: rgb(45, 217, 134);
+    color:  black;
+    width: 160px;
+  border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+   margin-left: 9vw;
+}

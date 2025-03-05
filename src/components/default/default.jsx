@@ -1,6 +1,6 @@
 import Styles from "./defalut.module.css";
 import Image from "../../assets/whatsapp.png";
-export default function Default() {
+export default function Default () {
   return (
     <div className={Styles.downloadcontainer}>
       <div className={Styles.imagecontainer}>
